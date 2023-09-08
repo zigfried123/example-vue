@@ -1,0 +1,71 @@
+input, textarea{
+    box-shadow: none !important;
+}
+
+.el-input__inner{
+    height: 32px !important;
+    padding: 0 !important;
+    display: block !important;
+    flex: 1 !important;
+    border: none !important;
+    background: none !important;
+    transition: .4s cubic-bezier(.25,.8,.25,1) !important;
+    transition-property: font-size,padding-top,color !important;
+    font-family: inherit !important;
+    font-size: 16px !important;
+    line-height: 32px !important;
+}
+
+.loader {
+    display: inline-block;
+    margin-top: 12px;
+}
+
+.md-menu-content.md-select-menu {
+    max-width: 450px;
+}
+
+.md-dialog {
+    width: 768px;
+}
+
+.md-dialog .el-select {
+    width: 50%;
+}
+
+.md-field .el-select {
+    width: 50%;
+}
+
+.doc-ml--8 {
+    margin-left: -8px;
+}
+
+@media (min-width: 1176px) {
+    .el-popper[x-placement^=bottom] {
+        margin-top: -24px;
+    }
+}
+
+.el-select .el-input .el-select__caret.el-icon-circle-close {
+    color: #505050;
+    font-size: 20px;
+}
+
+.el-select .el-input.is-disabled .el-input__inner {
+    color: rgba(0,0,0,.87);
+}
+.buttons-block {
+    padding-top: 50px;
+}
+
+.action_button {
+    padding-top: 20px;
+}
+.md-select {
+    width: 100%;
+}
+
+.btn_item {
+    width: 100%;
+}

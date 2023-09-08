@@ -1,0 +1,32 @@
+:root {
+    --pa-accent-color: #ffbf00;
+    --pa-success-color: #25cb8a;
+    --pa-accent-light: #f7f7f7;
+    --pa-accent-dark-color: #cc9900;
+    --pa-contrast-dark-color: #000000;
+    --pa-contrast-light-color: #ffffff;
+    --pa-shadow: -1px 10px 61px -19px rgba(0, 0, 0, 0.62);
+    --pa-shadow-bright: -5px 2px 43px -8px rgba(0, 0, 0, 8);
+    --pa-shadow-description: inset 0px -55px 110px -75px rgba(0, 0, 0, 0.53);
+    --pa-shadow-description-hovered: inset 0px -84px 93px -75px rgba(0, 0, 0, 0.53);
+}
+
+.md-success {
+    color: var(--pa-success-color) !important;
+}
+
+.md-field.md-theme-default > .md-icon:after {
+    background: none !important;
+}
+
+.md-avatar {
+    border-radius: 40px !important;
+}
+
+.md-pointer {
+    cursor: pointer !important;
+}
+
+.md-datepicker-days .md-datepicker-day-button {
+    border-radius: 30px !important;
+}

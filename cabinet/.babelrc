@@ -1,0 +1,29 @@
+{
+  "env": {
+    "test": {
+      "plugins": ["transform-es2015-modules-commonjs"]
+    },
+    "production": {
+      "presets": [
+        [
+          "@babel/preset-env",
+          {
+            "modules": false
+          }
+        ]
+      ],
+      "plugins": ["@babel/plugin-proposal-object-rest-spread", "@babel/plugin-transform-runtime"]
+    },
+    "development": {
+      "presets": [
+        [
+          "@babel/preset-env",
+          {
+            "modules": false
+          }
+        ]
+      ],
+      "plugins": ["@babel/plugin-proposal-object-rest-spread", "@babel/plugin-transform-runtime"]
+    }
+  }
+}

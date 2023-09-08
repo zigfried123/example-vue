@@ -1,0 +1,34 @@
+input, textarea{
+    box-shadow: none !important;
+}
+
+.el-input__inner{
+    height: 32px !important;
+    padding: 0 !important;
+    display: block !important;
+    flex: 1 !important;
+    border: none !important;
+    background: none !important;
+    transition: .4s cubic-bezier(.25,.8,.25,1) !important;
+    transition-property: font-size,padding-top,color !important;
+    font-family: inherit !important;
+    font-size: 16px !important;
+    line-height: 32px !important;
+}
+
+@media (min-width: 1176px) {
+    .el-popper[x-placement^=bottom] {
+        margin-top: -24px;
+    }
+}
+
+.dialog-moderate-history {
+    width: 700px;
+}
+.dialog-confirm-action {
+    width: 500px;
+}
+
+.dialog-confirm-action .dialog-body {
+    padding: 0 20px
+}

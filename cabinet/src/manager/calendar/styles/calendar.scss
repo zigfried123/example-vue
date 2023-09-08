@@ -1,0 +1,155 @@
+.header-table {
+  padding-left: 10px;
+  padding-top: 10px;
+
+  .button-download {
+    position: absolute;
+    right: 20px;
+    top: 10px;
+  }
+}
+.calendar-grid {
+  margin-left: 89px;
+}
+
+.table-title{
+  border-bottom: 1px solid rgba(166, 168, 179, 0.12);
+  border-right: 1px solid rgba(166, 168, 179, 0.12);
+  text-align: center;
+  font-size: 14px;
+  &--minus{
+    .md-table-head-label{
+      color: #f34e50;
+    }
+    .md-icon{
+      color: #f34e50 !important;
+    }
+  }
+  &--today{
+    .md-table-head-label{
+      color: #b5a84c;
+    }
+    .md-icon{
+      color: #b5a84c !important;
+    }
+  }
+  &--plus{
+    .md-table-head-label{
+      color: #3db538;
+    }
+    .md-icon{
+      color: #3db538 !important;
+    }
+  }
+}
+
+.cell-interval {
+  font-weight: bold;
+  background: #CCC;
+  font-size: 13px;
+  border-top: 2px solid;
+  border-bottom: 2px solid;
+
+  &--minus{
+    background: #fff4f4 !important;
+  }
+  &--today{
+    background: #fffdec !important;
+  }
+  &--plus{
+    background: #e6f8e5 !important;
+  }
+
+  .md-table-head-container {
+    padding: 2px 0;
+    text-align: center;
+    .md-table-head-label {
+      height: 100%;
+      color: #000;
+      line-height: 18px;
+    }
+  }
+}
+
+.cell-value {
+  font-size: 13px;
+  text-align: center;
+  &--minus{
+    background: #fff4f4 !important;
+  }
+  &--today{
+    background: #fffdec !important;
+  }
+  &--plus{
+    background: #e6f8e5 !important;
+  }
+  a {
+    color: #000 !important;
+    text-decoration: underline;
+    font-weight: bold;
+  }
+}
+
+.payment-name {
+  font-size: 14px;
+  font-weight: bold;
+  background: #fff !important;
+
+  .md-table-cell-container {
+    padding: 2px;
+  }
+}
+
+.md-table-cell {
+  border: 1px solid #aaa;
+}
+
+.legend {
+  width:100%;
+  padding-left: 10px;
+}
+
+.headcol {
+  position: absolute;
+  right: 0;
+  top: auto;
+  width: 155px;
+  margin-top: 1px;
+  &--val{
+    height: 65px !important;
+    margin-top: 1px;
+  }
+}
+
+.headcol.last {
+  margin-top: -1px !important;
+  border-top: 2px solid;
+}
+
+.headcol-side-bar{
+  position: absolute;
+  left: 0;
+  top: auto;
+  width: 155px;
+  margin-top: -1px;
+  z-index: 1;
+  &--type{
+    background-color: white;
+    height: 65px !important;
+    margin-top: 1px;
+  }
+}
+
+.md-table-cell {
+  height: 58px;
+  min-width: 155px;
+  width: 155px;
+}
+
+.cell-interval.cell-interval--plus.headcol {
+  margin-top: -2px;
+}
+
+.pt-15 {
+  padding-top: 15px;
+}

@@ -1,0 +1,45 @@
+:root {
+    --md-theme-default-primary: #ffbf00 !important;
+    --md-theme-default-primary-on-background: #ffbf00 !important;
+    --md-theme-default-primary-on-: rgba(255, 188, 0, 0.38) !important;
+}
+.md-input {
+    box-shadow: none !important;
+    margin-bottom: 0 !important;
+}
+
+.md-chip {
+    border-radius: 32px !important;
+}
+
+.md-chip > button {
+    border-radius: 32px !important;
+}
+
+.md-radio-container {
+    border-radius: 10px !important;
+}
+
+.md-icon-button {
+    border-radius: 50px !important;
+}
+
+.md-checkbox.__error > label {
+    color:var(--md-theme-default-accent) !important;
+}
+
+.md-checkbox.__error > .md-checkbox-container{
+    border-color:var(--md-theme-default-accent) !important;
+}
+
+.md-theme-default a:not(.md-button) {
+    color: inherit;
+}
+
+.md-card {
+    margin-bottom: 10px !important;
+}
+
+i.md-primary {
+    color: var(--md-theme-default-primary);
+}
